@@ -4,6 +4,8 @@ Bundler.require
 module Concerns
 end
 
+require'./lib/concerns/findable.rb'
+
 require_all 'lib'
 
-require'./lib/concerns/findable.rb'
+
